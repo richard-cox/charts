@@ -7,12 +7,12 @@ annotations:
   catalog.cattle.io/provides-gvr: cis.cattle.io.clusterscans/v1
   catalog.cattle.io/release-name: rancher-cis-benchmark
   catalog.cattle.io/ui-component: rancher-cis-benchmark
+  catalog.cattle.io/rancher-version: "< 2.5.99-0"
 apiVersion: v1
 appVersion: v1.0.3
-description: The cis-operator enables running CIS benchmark security scans on a kubernetes
-  cluster
+description: The cis-operator enables running CIS benchmark security scans on a kubernetes cluster
 icon: https://charts.rancher.io/assets/logos/cis-kube-bench.svg
 keywords:
-- security
+  - security
 name: rancher-cis-benchmark
 version: 1.0.301
